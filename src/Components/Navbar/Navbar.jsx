@@ -7,11 +7,11 @@ import Upload from "../../assets/upload.svg";
 import more from "../../assets/more.svg";
 import notification from "../../assets/notification.svg";
 import profil from "../../assets/profil.jpg";
-const Navbar = () => {
+const Navbar = ({setSidebar}) => {
   return (
     <nav className="flex-div">
       <div className="nav-left flex-div">
-        <HiBars3BottomLeft />
+     <h2 className="bars" onClick={()=>setSidebar(prev=>prev===false?true:false)}>   <HiBars3BottomLeft /></h2>
         <img className="logo" src={Logo} alt="" />
       </div>
       <div className="nav-middle flex-div">
