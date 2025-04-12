@@ -10,6 +10,7 @@ const Home = ({ sidebar }) => {
         <Feed />
       </div>
     </>
+    
   );
 };
 

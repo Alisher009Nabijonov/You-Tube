@@ -3,7 +3,7 @@ import './PlayVide.css'
 const PlayVide = () => {
   return (
     <div>
-        youtubeda 1:02:1 secuntga keldim
+        youtubeda 1:02:1 secuntga keldimf
     </div>
   )
 }

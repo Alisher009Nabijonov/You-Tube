@@ -73,6 +73,7 @@ const Sidebar = ({sidebar}) => {
           </h3>
           <p>News</p>
         </div>
+        
         <hr />
       </div>
       <div className="subscribed-list">

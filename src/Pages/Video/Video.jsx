@@ -6,5 +6,6 @@ export const Video = () => {
     <div className='play-container'>
       <PlayVide/>
     </div>
+    
   )
 }
