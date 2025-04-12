@@ -1,5 +1,5 @@
 import React from 'react'
-import './PlayVide.css'
+import './PlayVIdeo.css'
 const PlayVide = () => {
   return (
     <div>
