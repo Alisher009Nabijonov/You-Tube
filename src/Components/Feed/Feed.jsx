@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const Feed = () => {
   return (
     
+    
     <div className="feed">
       <Link to={`video/20/4521`} className="card">
         <img src={thumbnail1} alt="" />

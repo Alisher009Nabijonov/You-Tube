@@ -37,6 +37,7 @@ const Reccommendend = () => {
           <p>199k Views</p>
         </div>
       </div>
+      
       <div className="side-video-list">
         <img src={img2} alt="" />
         <div className="vid-info">

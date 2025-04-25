@@ -49,6 +49,7 @@ const Sidebar = ({sidebar}) => {
           </h3>
           <p>Entertainment</p>
         </div>
+        
         <div className="side-link">
           <h3>
             <GrTechnology />
