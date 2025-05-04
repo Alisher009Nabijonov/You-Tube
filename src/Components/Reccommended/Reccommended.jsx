@@ -12,6 +12,7 @@ const Reccommendend = ({ categoryId }) => {
       .then((res) => res.json)
       .then((data) => setApiData(data.items));
   };
+  
 
   useEffect(() => {
     fetchData();

@@ -38,6 +38,7 @@ const PlayVide = ({ videoId }) => {
       .then((data) => setCommentData(data.items));
   };
 
+  
   useEffect(() => {
     fetchVideoData();
   }, []);
