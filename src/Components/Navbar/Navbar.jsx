@@ -10,7 +10,8 @@ import profil from "../../assets/profil.jpg";
 import { Link } from "react-router-dom";
 const Navbar = ({setSidebar}) => {
   return (
-    <nav className="flex-div">
+   
+   <nav className="flex-div">
       
       <div className="nav-left flex-div">
      <h2 className="bars" onClick={()=>setSidebar(prev=>prev===false?true:false)}>   <HiBars3BottomLeft /></h2>

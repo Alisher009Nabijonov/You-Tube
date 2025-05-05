@@ -18,6 +18,7 @@ const Reccommendend = ({ categoryId }) => {
     fetchData();
   }, []);
 
+  
   return (
     <div className="recommended">
       {apiData.map((item, index) => {

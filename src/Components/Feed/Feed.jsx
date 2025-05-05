@@ -20,6 +20,7 @@ const Feed = ({ category }) => {
   }, [category]);
 
   return (
+    
     <div className="feed">
       {data.map((item, index) => {
         
