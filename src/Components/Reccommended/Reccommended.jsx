@@ -31,6 +31,7 @@ const Reccommendend = ({ categoryId }) => {
               <p>199k Views</p>
             </div>
           </div>
+          
         );
       })}
     </div>

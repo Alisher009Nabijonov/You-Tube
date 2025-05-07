@@ -16,6 +16,7 @@ import { IoNewspaper } from "react-icons/io5";
 import profil from "../../assets/profil.jpg";
 
 
+
 const Sidebar = ({ sidebar, category, setCategory }) => {
   return (
     <div className={`sidebar ${sidebar ? "" : "small-sidebar"}`}>

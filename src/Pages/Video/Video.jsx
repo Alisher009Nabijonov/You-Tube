@@ -13,6 +13,7 @@ export const Video = () => {
       <Reccommendend categoryId={categoryId}/>
     </div>
     
+    
   )
 }
 

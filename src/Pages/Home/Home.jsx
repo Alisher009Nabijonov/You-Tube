@@ -15,6 +15,7 @@ const Home = ({ sidebar }) => {
     </>
     
   );
+  
 };
 
 export default Home;
